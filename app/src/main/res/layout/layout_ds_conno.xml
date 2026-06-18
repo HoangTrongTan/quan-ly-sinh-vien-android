@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+    <TextView
+        android:id="@+id/temon"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Tên môn"
+
+        />
+    <TextView
+        android:id="@+id/sotinchi"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Số tín chỉ"
+        android:textStyle="italic"
+
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/sotien"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Số tiền"
+        android:textStyle="italic"
+
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:id="@+id/tongtien"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Tổng tiền"
+        android:textStyle="italic"
+
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:id="@+id/trangthai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trạng Thái"
+        android:textStyle="italic"
+
+        android:layout_marginLeft="5dp"
+        />
+</LinearLayout>

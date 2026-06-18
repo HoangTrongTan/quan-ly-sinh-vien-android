@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sua_Diem">
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:background="#34F10A"
+        android:text="Sửa Điểm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Mã SV"
+            android:layout_width="wrap_content"
+            android:layout_weight="1.5"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.5"
+            android:enabled="false"
+            android:hint="Mã SV"
+            android:id="@+id/edt_S_MaSV"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Họ Tên"
+            android:layout_width="wrap_content"
+            android:layout_weight="1.4"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.6"
+            android:enabled="false"
+            android:hint="Họ Tên"
+            android:id="@+id/edt_s_HoTen"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Mã Môn"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.9"
+            android:enabled="false"
+            android:hint="Mã Môn"
+            android:id="@+id/edt_s_MaMon"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Điểm CC"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:hint="Điểm CC"
+            android:id="@+id/edt_s_DiemCC"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Điểm GK"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:hint="Điểm GK"
+            android:id="@+id/edt_s_DiemGK"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Điểm Thi"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:hint="Điểm Thi"
+            android:id="@+id/edt_s_DiemThi"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Điểm TB"
+            android:layout_width="wrap_content"
+            android:layout_weight="1.1"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.9"
+            android:enabled="false"
+            android:hint="Điểm TB"
+            android:id="@+id/edt_s_DiemTB"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnLuu"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="Lưu" />
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/btnHuy"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy" />
+    </LinearLayout>
+<!--    <ListView-->
+<!--        android:id="@+id/listview_sua_monhoc"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--    </ListView>-->
+</LinearLayout>

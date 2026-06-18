@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Add_khoahoc">
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:background="#34F10A"
+        android:text="Thêm Khóa Học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Mã Khóa Học"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edt_t_MaKhoa"
+            android:layout_width="wrap_content"
+            android:layout_weight="9.5"
+            android:hint="Mã Khóa"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Tên Khóa Học"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.35"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9.65"
+            android:hint="Khóa Học"
+            android:id="@+id/edt_t_KhoaHoc" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Niên Khóa"
+            android:layout_width="wrap_content"
+            android:layout_weight="1.6"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.4"
+            android:hint="Niên Khóa"
+            android:id="@+id/edt_t_NienKhoa" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnLuu"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="Lưu" />
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/btnHuy"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy" />
+    </LinearLayout>
+</LinearLayout>

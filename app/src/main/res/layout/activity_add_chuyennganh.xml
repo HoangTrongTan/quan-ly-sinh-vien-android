@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Add_chuyennganh">
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:background="#34F10A"
+        android:text="Thêm Chuyên Ngành"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Mã Ngành:"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.8"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edt_t_MaNganh"
+            android:layout_width="wrap_content"
+            android:layout_weight="9.2"
+            android:hint="Chuyên Ngành"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Tên Ngành:"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.6"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9.4"
+            android:hint="Chuyên Ngành"
+            android:id="@+id/edt_t_TenNganh" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnLuu"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="Lưu" />
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:id="@+id/btnHuy"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:text="Hủy" />
+    </LinearLayout>
+</LinearLayout>
